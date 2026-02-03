@@ -1,7 +1,5 @@
 package com.grupo11.ms_books_payments.dto;
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Lookup;
-import org.springframework.boot.convert.DataSizeUnit;
 
 import java.util.Date;
 @Data
@@ -14,7 +12,6 @@ public class VentaDto {
     private double costoEnvio;
     private String estadoVenta;
 
-
-
+    private UsuarioDto usuarioDTO;
 
 }
